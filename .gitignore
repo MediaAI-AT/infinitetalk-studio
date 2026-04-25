@@ -25,3 +25,10 @@ Thumbs.db
 
 # Node
 node_modules/
+
+# Personal images and scripts
+images/*.jpg
+images/*.jpeg
+images/*.png
+images/*.webp
+scripts/*.txt
