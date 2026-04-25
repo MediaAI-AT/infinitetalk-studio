@@ -1,0 +1,27 @@
+# API Keys & Secrets
+.env
+.env.*
+
+# Pipeline output (videos, audio, generated files)
+output/
+state.json
+
+# Remotion build cache & public videos
+remotion/public/*.mp4
+remotion/public/*.mp3
+remotion/node_modules/
+remotion/.cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/

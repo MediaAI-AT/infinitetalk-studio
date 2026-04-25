@@ -1,0 +1,81 @@
+{
+  "image": "images/avatar.jpg",
+  "voice": {
+    "id": "TzZHz7pbncdwUyLANO1U",
+    "settings": {
+      "stability": 0.40,
+      "similarity_boost": 0.75,
+      "style": 0.00,
+      "use_speaker_boost": true,
+      "speed": 0.90
+    }
+  },
+  "pipeline": {
+    "max_chunk_words": 100,
+    "max_audio_duration_sec": 55,
+    "concurrent_limit": 5,
+    "resolution": "720p"
+  },
+  "scripts": {
+    "1": {
+      "title": "Beispiel-Video",
+      "file": "scripts/example.txt"
+    },
+    "2": {
+      "title": "Workflow Anleitung",
+      "file": "scripts/workflow-anleitung.txt"
+    },
+    "3": {
+      "title": "Dating 2026",
+      "file": "scripts/dating-2026.txt",
+      "image": "images/sandy.png",
+      "voice_id": "jJAnn6wsN49jckkXORmo",
+      "format": "9:16"
+    },
+    "4": {
+      "title": "KI News iQiyi Nadou Pro",
+      "file": "scripts/ki-news-iqiyi.txt",
+      "format": "16:9"
+    },
+    "6": {
+      "title": "Warum du 1000x geswipt hast und allein bist",
+      "file": "scripts/dating-swipen.txt",
+      "image": "images/sandydating.jpeg",
+      "voice_id": "jJAnn6wsN49jckkXORmo",
+      "format": "16:9",
+      "enhance": false
+    },
+    "9": {
+      "title": "Warum souveräne Männer keine Dating-Apps brauchen",
+      "file": "scripts/dating-souveraen.txt",
+      "image": "images/sandydating.jpeg",
+      "voice_id": "jJAnn6wsN49jckkXORmo",
+      "format": "16:9",
+      "enhance": true
+    },
+    "8": {
+      "title": "Das steckt wirklich hinter Dating-Apps Psychologie",
+      "file": "scripts/dating-psychologie.txt",
+      "image": "images/sandydating.jpeg",
+      "voice_id": "jJAnn6wsN49jckkXORmo",
+      "format": "16:9",
+      "enhance": true
+    },
+    "7": {
+      "title": "10 Dinge die Frauen abstoßen Icks Vol 2",
+      "file": "scripts/dating-icks-vol2.txt",
+      "image": "images/sandydating.jpeg",
+      "voice_id": "jJAnn6wsN49jckkXORmo",
+      "format": "16:9",
+      "enhance": false
+    },
+    "5": {
+      "title": "Vibe Coding DACH Community",
+      "file": "scripts/vibe-coding-dach.txt",
+      "image": "images/sandy.png",
+      "voice_id": "jJAnn6wsN49jckkXORmo",
+      "format": "9:16",
+      "enhance": false
+    }
+  }
+}
